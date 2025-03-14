@@ -1,0 +1,11 @@
+### First message
+POST http://localhost:8080/api/chat
+Content-Type: text/plain
+
+Hello, who are you?
+
+### Second message (context should be remembered)
+POST http://localhost:8080/api/chat
+Content-Type: text/plain
+
+Can you tell me more about yourself?
